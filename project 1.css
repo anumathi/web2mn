@@ -1,0 +1,89 @@
+body{
+
+	margin: 0;
+	padding: 0;
+	background: url(weldon.jpg.jpeg) no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	font-family: sans-serif;
+
+}
+h1{
+
+	font-size: 30px;
+	padding: 0 0 10px;
+
+	color: black;
+}
+
+
+.box{
+
+	background-image: url(hgf.mn.jpg);
+	color:gray;
+	top: 20%;
+	left: 10%;
+	outline: 0.2px;
+	outline-color: #082F6D;
+	position: absolute;
+	box-sizing: border-box;
+	padding: 70px 50px;
+	border-radius: 20px;
+}
+p{
+
+	color: red;
+	font-size: 20px;
+	font-style: italic;
+}
+
+input[type="text"],input[type="password"]
+{
+  border: none;
+  border-bottom:none
+  background: transparent;
+  outline: none;
+  height: 40px;
+  font-size: 16px;
+  color: #673ab7;
+
+}
+input[type="submit"]
+{
+
+	border:none;
+	outline: none;
+	height: 40px;
+	background:red;
+	color: white;
+	font-size: 16px;
+	border-radius: 5px;
+	margin-right: 30px;
+	background-color: gray;
+}
+input[type="submit"]:hover
+{
+	cursor: pointer;
+	color: black;
+}
+input[type="submit"]:action
+{
+	color: red;
+
+}
+
+a{
+	text-decoration: none;
+}
+a:hover
+{
+	color: red;
+}
+a:action
+{
+	color: green;
+}
+#errorbox{
+	color: red;
+}
