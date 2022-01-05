@@ -1,0 +1,61 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	-webkit-background-size:cover;
+	-o-background-size:cover;
+	-moz-background-size:cover;
+	font-family: sans-serif;
+}
+.gift{
+      color: red;
+      background-color:pink;
+     top: 30px;
+     left:30%;
+      position: absolute;
+     box-sizing: border-box;
+     padding: 90px 50px;
+     border-radius: 20px;
+     font-size: 20px;
+}
+h1{
+	color:black;
+	font-size: 30px;
+}
+input[type="Name"],input[type="Email Id"],input[type="Password"],input[type="Retype Password"]
+{
+    color: red;
+    font-size: 30px;
+
+	}
+input[type="text"],input[type="email"],input[type="password"],input[type="password2"]
+{
+	border: none;
+	color: black;
+	border-bottom: 0.3px  skyblue;
+	color: black;
+	background: transparent;
+	outline:0.1px;
+	font-style: italic;
+	font-size: 20px;
+}
+input[type="submit"]
+{
+	cursor: pointer;
+	color: black;
+	font-size: 20px;
+	border-radius: 20px;
+	background-color: green;
+}
+input[type="submit"]:hover{
+	color:white;
+
+}
+a
+{
+text-decoration: none;
+}
+a:hover
+{
+	color: black;
+}
