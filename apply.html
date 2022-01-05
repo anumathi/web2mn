@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Application form</title>
+	<link rel="stylesheet" type="text/css" href="apply.css">
+	<script type="text/javascript" src="apply.js"></script>
+</head>
+<body>
+<div class="app">
+	<h1>Application Form</h1>
+	
+	<form name="form3" action="apply.php" method="POST"          onsubmit="return vfun()">
+		<p> Name*</p>
+		<input type="text" name="name" placeholder="Full name">
+
+		<p>Date Of Birth*</p>
+		<input type="Date" name="dno" placeholder="Date Of Birth">
+
+		<p>Email*</p>
+		<input type="email" name="ename" placeholder="Enter email">
+
+		<p>Phone number*</p>
+		<input type="number" name="pno" placeholder="Enter Phone Number">
+
+		<p>Address*</p>
+		<input type="text" name="address" placeholder="Enter Address">
+      <p>Qualification*</p>
+      <input type="text" name="qname" placeholder="Enter your Qualification">
+    
+    <p>Insititute Name*</p>
+    <input type="text" name="iname" placeholder="Enter your Insititute name">
+
+		<p>Town*</p>
+		<input type="text" name="tname" placeholder="Enter your Town">
+
+		<p>District*</p>
+		<input type="text" name="dname" placeholder="Enter your District">
+
+		<p>State*</p>
+		<input type="text" name="sname" placeholder="Enter your State">
+
+		<p>Country*</p>
+		<input type="text" name="cname" placeholder="Enter your Country">
+
+       <p>Pin code*</p>
+       <input type="number" name="pname" placeholder="Enter your Pin code">
+
+       <p>Resume</p>
+       <input type="file" name="resume">
+<br><br>
+<div id="errorbox"></div>
+
+<input type="submit" name=""  value="Apply">
+	</form>
+</div>
+
+</body>
+</html>

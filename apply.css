@@ -1,0 +1,59 @@
+body{
+margin: 0px;
+padding: 0 px;
+background: url(bat.jpeg)no-repeat center center fixed;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+font-family: sans-serif;
+}
+.app
+{
+	color:red;
+	background-color:#ABD6A8;
+	top: 30px;
+	right: 30px;
+	position: absolute;
+	box-sizing: border-box;
+	padding: 80px 60px;
+	border-radius: 20px;
+	font-size: 20px;
+}
+h1{
+	color:black;
+	font-size: 30px;
+}
+input[type="text"],input[type="number"],input[type="email"],input[type="Date"]
+{
+	font-size: 15px;
+	border:none;
+	color:black;
+	background: transparent;
+	outline: none;
+	font-style: italic;
+	border-bottom:none  solid skyblue;
+}
+input[type="submit"]
+{
+	color: black;
+	background-color:#c90579;
+	cursor: pointer;
+	outline: none;
+	border-radius: 20px;
+	font-size: 20px;
+	
+
+}
+input[type="submit"]:hover
+{
+	color: white;
+
+}
+input[type="submit"]:action
+{
+	color: red;
+}
+p{
+	font-size: 20px;
+
+}
